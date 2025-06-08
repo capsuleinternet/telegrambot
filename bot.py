@@ -4,9 +4,9 @@ from bs4 import BeautifulSoup
 import os
 
 # Environment Variables (to be set in Render.com later)
-BOT_TOKEN = os.getenv("8121912599:AAFQCEJCUruTXSLGXwxYwtddr8UeeUDLYxQ")
-PORTAL_USERNAME = os.getenv("Vinayak@S")
-PORTAL_PASSWORD = os.getenv("Vinayak@S")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") 
+PORTAL_USERNAME = os.getenv("PORTAL_USERNAME")
+PORTAL_PASSWORD = os.getenv("PORTAL_PASSWORD")
 
 # Replace with real portal URLs
 PORTAL1_LOGIN_URL = "https://operator.intechonline.net/Partner/Login.aspx"
