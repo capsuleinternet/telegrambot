@@ -19,7 +19,7 @@ PORTAL2_DETAIL_URL = "https://selfdesk2.microscan.co.in/admin/#!/ViewEditUsers"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Add Telegram user IDs of your employees (as strings)
-AUTHORIZED_USERS = ["9870880183", "9664607772","9664607772","9833875015"]  # Replace with real user IDs
+AUTHORIZED_USERS = ["1879098635", "9870880183", "9664607772","9664607772","9833875015"]  # Replace with real user IDs
 
 # Function to log in and fetch customer data
 def get_customer_from_portal1(customer_id):
